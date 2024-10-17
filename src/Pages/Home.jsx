@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../Componetes/Hero'
-import About from '../Componetes/About'
-import Services from '../Componetes/Services'
-import FeatureMovies from '../Componetes/Feautermovies'
-import Team from '../Componetes/Team'
-import CAt from '../Componetes/CAt'
-import Footer from '../Componetes/Footer'
+import Hero from '../Components/Hero'
+import About from '../Components/About'
+import Services from '../Components/Services'
+import FeatureMovies from '../Components/Feautermovies'
+import Team from '../Components/Team'
+import CAt from '../Components/CAt'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <About />
       <Services />
       <FeatureMovies />
-      <Team />
+      {/* <Team /> */}
       <CAt />
       <Footer />
 

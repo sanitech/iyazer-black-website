@@ -1,0 +1,48 @@
+.gallery-container{
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 1rem;
+}
+.gallery-container .gallery{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.gallery-container .gallery img{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+.gallery-container .gallery img:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-container .gallery img:focus{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .gallery-container{
+        columns: 3;
+        column-gap: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .gallery-container{
+        columns: 3;
+        column-gap: 0.5rem;
+    }
+    
+}
+@media screen and (max-width: 428px){
+    .gallery-container{
+        columns: 2;
+        column-gap: 0.5rem;
+    }
+    
+}
