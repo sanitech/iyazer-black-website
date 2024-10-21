@@ -1,5 +1,5 @@
 import React from "react";
-import heroGallery from "../Assets/images/gallery/gallery (7).jpg";
+import heroGallery from "../Assets/images/gallery/gallery (12).jpg";
 function GalleryHero() {
   return (
     <div>

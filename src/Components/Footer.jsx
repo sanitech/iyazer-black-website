@@ -54,7 +54,7 @@ const Footer = () => {
               <i class="bi bi-geo-alt"></i>
               <span>Adama mebrat hayle mench biro 5-19</span>
             </a>
-            <a href="" class="footer-secondary-text">
+            <a href="tel:+25198660360" class="footer-secondary-text">
               <i class="bi bi-telephone"></i>
               <span> 0970747513 / 098660360 </span>
             </a>
