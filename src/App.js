@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Movie from "./Pages/Movie";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
+import RegisterPage from "./Pages/RegisterPage";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/movie" element={<Movie />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </div>
   );

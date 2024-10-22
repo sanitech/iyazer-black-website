@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../Assets/images/logo2.png";
 import { Link } from "react-router-dom";
-import { galleryData } from "../Data";
+import { galleryData } from "../Data/Data";
 
 const Footer = () => {
   return (

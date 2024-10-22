@@ -54,6 +54,7 @@ body {
   background-color: var(--primary-bg);
   color: #fff;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -73,7 +74,7 @@ nav {
   height: 60px;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 2000;
   background-color: var(--primary-bg);
 }
 
@@ -223,12 +224,13 @@ header.hero {
   font-weight: bold;
   font-size: 5.9em;
   text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .about-text-body,
 .hero-text-body {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.4;
   margin: 20px 0;
   color: var(--secondary-text-color);
 }

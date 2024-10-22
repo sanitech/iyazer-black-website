@@ -1,13 +1,16 @@
 import React from "react";
 import aboutImage from "../Assets/images/forweb.webp";
+import {motion} from 'framer-motion'
 const About = () => {
+  const transition={duration: 2, type: 'spring'}
+
   return (
     <section>
       <div class="about-us-section">
         <div class="about-us-img-section">
           <img class="about-us-img" src={aboutImage} alt="" />
 
-          <div class="expert">
+          <motion.div initial={{left:'0%'}} whileInView={{left:'5%'}} transition={transition} class="expert">
             <div class="expert-text">
               <div class="expert-year">14</div>
               <div class="expert-text-header">
@@ -18,7 +21,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div class="about-text">
           <div class="about-text-header">Iyazer Film production</div>

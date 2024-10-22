@@ -1,6 +1,6 @@
 import React from "react";
 import "./gallery.css";
-import { galleryData } from "../Data";
+import { galleryData } from "../Data/Data";
 function GalleryMasonry() {
   return (
     <div>

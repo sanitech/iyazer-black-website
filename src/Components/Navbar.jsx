@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
       <div class="logo-banner">
-        <Link to={'/'}>
+        <Link to={'/'} className='flex'>
           <img src={logo} alt="" />
           <span class="logo-text oswald">IYAZER</span>
         </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
       </ul>
 
       <div class="start-btn">
-        <Link to={"/contact"}>let's go <i class="bi bi-arrow-up-right"></i></Link>
+        <Link to={"/register"}>let's go <i class="bi bi-arrow-up-right"></i></Link>
       </div>
 
       <div class=" burger-btn burger" onClick={toggleNav}>
