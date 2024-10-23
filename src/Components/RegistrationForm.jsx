@@ -1,21 +1,22 @@
 import React from "react";
-import VolunteerCard from "./VolunteerCard";
+
 import { TermsAndCondition } from "../Data/Data";
+import VolunteerCard from "./VolunteerCard";
 
 function RegisterForm() {
   return (
     <div>
       <div
         className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto"
-        id="volunteer"
+        id="school"
       >
         <div className="grid md:grid-cols-3 items-start gap-12">
           <div className="col-span-1 py-14 px-7 bg-orange-500 rounded-lg ">
             <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl lg:text-3xl lg:leading-tight dark:text-gray-800 ">
-              Join Our Volunteer Team
+              Join Our school Team
             </h1>
             <p className="mt-1 md:text-lg text-gray-800 dark:text-gray-600">
-              Every hour you dedicate makes a difference. Explore our volunteer
+              Every hour you dedicate makes a difference. Explore our school
               options and be a part of something impactful.
             </p>
 

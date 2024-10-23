@@ -160,9 +160,7 @@ function VolunteerCard() {
                   for="af-account-full-name"
                   class="inline-block text-sm text-gray-100 mt-2.5 "
                 >
-                  {membershipStatus === "individual"
-                    ? "First name"
-                    : "Organization name"}
+                  Full Name
                 </label>
               </div>
 

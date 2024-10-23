@@ -77,16 +77,10 @@
      padding: 10px;
  }
 
- @media (max-width: 834px) {
-     body {
-         background-color: red;
-     }
- }
+ @media (max-width: 834px) {}
 
  @media (max-width: 480px) {
-     body {
-         background-color: orange;
-     }
+
 
      .input-row {
          display: flex;
