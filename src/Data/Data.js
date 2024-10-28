@@ -25,6 +25,8 @@ const gallery9 = require("../Assets/images/gallery/gallery (9).jpg");
 const gallery10 = require("../Assets/images/gallery/gallery (10).jpg");
 const gallery11 = require("../Assets/images/gallery/gallery (11).jpg");
 const gallery12 = require("../Assets/images/gallery/gallery (12).jpg");
+const gallery13 = require("../Assets/images/gallery/gallery (13).jpg");
+const gallery14 = require("../Assets/images/gallery/gallery (14).jpg");
 
 // import gallery1 from ''
 export const movieData = [
@@ -148,6 +150,12 @@ export const galleryData = [
   },
   {
     image: gallery12,
+  },
+  {
+    image: gallery13,
+  },
+  {
+    image: gallery14,
   },
 ];
 
